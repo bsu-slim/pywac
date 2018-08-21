@@ -8,6 +8,8 @@ import sqlite3
 import pandas as pd
 from scipy.spatial import distance
 from pandasql import sqldf
+import sklearn
+from sklearn import ensemble
 import random
 import numpy as np
 

@@ -11,6 +11,12 @@ class WAC:
         name: name of model for persistance and loading
         compose_method: prod, avg, sum
         classifier_spec: some kind of scikit classifier + arguments as a tuple
+        
+        to train:
+        add observations, then call train() then persist()
+        
+        to evaluate:
+        load() model, then call add_increment for each word in an utterance. Call new_utt() to start a new utterance. 
         '''
         self.wac = {}
         self.model_name=name
