@@ -28,6 +28,7 @@ Obviously, wac is a simple application of a classifier for each word and is ther
 
 ### Reference
 
+```
 @InProceedings{kennington-schlangen:2015:ACL-IJCNLP,
   author    = {Kennington, Casey  and  Schlangen, David},
   title     = {Simple Learning and Compositional Application of Perceptually Grounded Word Meanings for Incremental Reference Resolution},
@@ -39,5 +40,5 @@ Obviously, wac is a simple application of a classifier for each word and is ther
   pages     = {292--301},
   url       = {http://www.aclweb.org/anthology/P15-1029}
 }
-
+```
 
